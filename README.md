@@ -43,7 +43,8 @@ config.generators do |g|
 ```
 ## Use method_names without writing FactoryBot.method_name.
 * Goto ```spec/rails_helper.rb```
-* paste this
+* paste this:
 ```
-  config.include FactoryBot::Syntax::Methods
+config.include FactoryBot::Syntax::Methods
 ```
+* For more information, follow [this](https://github.com/thoughtbot/factory_bot/blob/master/GETTING_STARTED.md#configure-your-test-suite).
