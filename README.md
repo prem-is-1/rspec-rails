@@ -2,11 +2,19 @@
 
 This repo covers the basic rspec setup with rails.
 
-## Things you may want to cover:
+## Highlights:
 
-* Ruby version: >2.0.0
+* Setting rspec as testing framework.
 
 * Important gem used: 'rspec-rails', 'factory_bot_rails'
+
+* Generating spec for your model
+
+* Adding rspec configuration for your applicaion.
+
+* Factory Bot 
+
+* Factory Bot configuration
 
 ## Steps to Start
 
@@ -18,7 +26,7 @@ This repo covers the basic rspec setup with rails.
 
 ## Rspec Configuration
 
-* Rspec Documentation Link
+* Rspec [Documentation](https://github.com/rspec/rspec-rails#readme)
 
 ## Set rspec as Test Framework for your application
 * Goto application.rb
@@ -32,4 +40,10 @@ config.generators do |g|
         routing_specs: false
       )
     end
+```
+## Use method_names without writing FactoryBot.method_name.
+* Goto ```spec/rails_helper.rb```
+* paste this
+```
+  config.include FactoryBot::Syntax::Methods
 ```
