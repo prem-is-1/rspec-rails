@@ -48,3 +48,5 @@ config.generators do |g|
 config.include FactoryBot::Syntax::Methods
 ```
 * For more information, follow [this](https://github.com/thoughtbot/factory_bot/blob/master/GETTING_STARTED.md#configure-your-test-suite).
+
+# [Reference](https://www.youtube.com/playlist?list=PLS6F722u-R6Ik3fbeLXbSclWkT6Qsp9ng)
