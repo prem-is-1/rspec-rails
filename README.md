@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo covers the basic rspec setup with rails.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version: >2.0.0
 
-* System dependencies
+* Important gem used: 'rspec-rails', 'factory_bot_rails'
 
-* Configuration
+Steps to Start
 
-* Database creation
+* Add gem 'rspec-rails', and 'factory_bot_rails' to your gemfile.
+* RUN bundnle install in you terminal.
+* RUN rails g rspec:install
+* RUN rails g rspec:model ModelName
+* WRITE your tests in the model spec file.
 
-* Database initialization
+Rspec Configuration
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* To 
