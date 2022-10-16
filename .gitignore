@@ -8,6 +8,9 @@
 /.bundle
 
 # Ignore all logfiles and tempfiles.
+/Gemfile.lock
+Rakefile
+/bin
 /log
 /tmp/*
 !/log/.keep
